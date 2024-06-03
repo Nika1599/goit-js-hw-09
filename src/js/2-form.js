@@ -7,7 +7,6 @@ const formData = {
   message: '',
 };
 
-// Load saved data from local storage
 const savedData = localStorage.getItem('feedback-form-state');
 if (savedData) {
   const parsedData = JSON.parse(savedData);
